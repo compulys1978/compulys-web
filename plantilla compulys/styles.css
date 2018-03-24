@@ -1,0 +1,364 @@
+/*
+Design by Metamorphosis Design
+http://www.metamorphozis.com
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+a{
+    color: #870000;
+    font-style: italic;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #000000;
+}
+
+.main p{
+	color: #000000;
+	line-height: 20px;
+	padding-bottom: 10px;
+	text-align: left;
+}
+
+.main p:first-letter{
+    color: #870000;
+}
+
+body {	
+    background: #000000;
+    font: 12px Arial, Helvetica, sans-serif;
+    color: #000000;
+    padding-bottom: 25px;
+}
+
+#back{
+    background: url(images/bg1.jpg) no-repeat top left;
+    width: 1207px;
+    margin: 0 auto;
+}
+
+#content{
+    width: 1207px;
+    text-align: left;
+    padding-top: 10px;
+}
+
+#main_top{
+    background: url(images/main_top.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 10px;
+}
+
+.main{
+    width: 1014px;
+    float: right;
+    clear:both;
+    background: url(images/main_bg.jpg);
+}
+
+#header {
+    width: 795px;
+    float: right;
+}
+
+#logo {
+    height: 60px;
+    text-align: left;
+    padding-bottom: 50px;
+}
+
+#logo a {
+    text-decoration: none;
+    text-transform: lowercase;
+    font-style: italic;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+#logo H2 a{
+    font-size: 12px;
+}
+
+#menu
+{
+    width: 100%;
+    height: 123px;
+}
+
+#menu ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+#menu li {
+
+    display: inline;
+    padding-left: 0px;
+
+}
+
+#menu a {
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+    font-weight: normal;
+    text-decoration: none;
+    width: 20%;
+    height: 71px;
+    display: block;
+    float: left;
+    padding-top: 52px;
+}
+
+.action, #menu a:hover, #menu_foot a:hover{
+	background: url(images/menu_hov.png) no-repeat top center;
+	font-size: 18px;
+}
+
+#conblog{
+	height: 201px;
+	margin-top: 9px;
+	margin-bottom: 9px;
+        padding-right: 40px;
+	width: 755px;
+}
+
+.blog{
+	background:url(images/blog.jpg) no-repeat left top;
+	width: 245px;
+	height:201px;
+}
+
+.blog2{
+	background:url(images/blog.jpg) no-repeat left top;
+	width: 245px;
+	height:201px;
+	float:right;
+	margin-left: 10px;
+}
+
+.blogtop{
+	font-size: 18px;
+	font-weight:normal;
+	color: #ffffff;
+	height: 36px;
+	padding-top: 12px;
+	text-align: center;
+}
+
+#conblog ul{
+    padding-left: 0px;
+    list-style: none;
+}
+
+#conblog li{
+    padding-left: 20px;
+    background: url(images/b_ls.png) no-repeat 0px 4px;
+    padding-bottom: 16px;
+}
+
+.link_b a{
+    color: #000000;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.link_b a:hover{
+    color: #870000;
+}
+
+.blogcenter{
+	padding-left: 30px;
+        padding-right: 15px;
+
+}
+.blogcenter .read{
+    text-align: right;
+}
+
+#conblog .read a{
+    color: #870000;
+    text-decoration: underline;
+}
+
+#conblog .read a:hover{
+    color: #000000;
+    text-decoration: none;
+}
+
+.main .read{
+    background: url(images/read.jpg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    text-align: right;
+    height: 18px;
+    padding-top: 1px;
+}
+
+.read a{
+    font-size: 12px;
+    text-decoration: none;
+    padding-right: 7px;
+    color: #ffffff;
+}
+
+h4{
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 18px;
+    color: #870000;
+    font-weight: normal;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #870000;
+    margin-bottom: 8px;
+}
+
+.left{
+    width: 395px;
+    float: left;
+    padding-left: 12px;
+    padding-right: 15px;
+}
+
+.right{
+    width: 550px;
+    float: left;
+    padding-left: 20px;
+    padding-right: 15px;
+}
+.link_col{
+    background: url(images/link_bg.jpg) repeat-y center;
+        margin-top: 20px;
+}
+.col1, .col2, .col3{
+    width: 161px;
+    float: left;
+}
+
+.col1{
+    padding-right: 20px;
+}
+
+.col2{
+    padding-left: 15px;
+    padding-right: 30px;
+}
+
+.main_bot{
+    background: url(images/main_bot.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 10px;
+}
+
+#footer {
+    height: 47px;
+    width: 1014px;
+    clear: both;
+    float: right;
+    margin-top: 20px;
+    padding-top: 25px;
+    background: url(images/footer.jpg) no-repeat top left;
+}
+
+#footer p {
+	margin: 0;
+	font-size: 18px;
+	text-align: center;
+	color: #ffffff;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight: bold;
+}
+
+#footer a {
+    color: #ffffff;
+}
+
+.left_res
+{
+width: 50%;
+float: left;
+}
+
+.left_res a
+{
+color: #870000;
+font-weight: bold;
+}
+
+.right_res
+{
+float: right;
+width: 50%;
+}
+
+.right_res a
+{
+color: #870000;
+font-weight: bold;
+}
+
+ul{
+color: #870000;
+padding-left: 20px
+}#content #header #logo h1 {
+	color: #FFFFFF;
+	font-size: 36px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+#content #header #logo p {
+	color: #FFFFFF;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight: bold;
+}
+#content #footer p img {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 10px;
+	color: #FFF;
+}
+.h1 {
+	font-size: 10px;
+}
+#content .main .content h1 {
+	color: #FF0000;
+}
+#content .main .content h2 {
+	color: #FF0000;
+}
+.l1 {
+	font-size: 14px;
+}
+#content .main .content h1 {
+	color: #FFFFFF;
+}
+#content .main .content h1 {
+	color: #333333;
+}
+#content .main .content h2 {
+	color: #333333;
+}
+#content .main .content h2 br {
+	color: #FF0000;
+}
+.C1 {
+	text-align: center;
+}
+#content .main .content h2 {
+	color: #FFF;
+}
+#content .main .content h2 {
+	text-align: center;
+}
+#content .main .content h1 {
+	text-align: center;
+}
+#content .main .content h1 {
+	color: #FFFFFF;
+}
